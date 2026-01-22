@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search | BioprotocolHub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">🧬 BioprotocolHub</div>
+</header>
+
+<section class="protocol-container">
+  <h2>Search Protocols</h2>
+
+  <input 
+    type="text" 
+    id="searchInput"
+    placeholder="Search PCR, cloning, plant DNA..."
+    style="width:100%;padding:12px;margin:20px 0;"
+  >
+
+  <div id="results"></div>
+</section>
+
+<script src="js/data.js"></script>
+<script src="js/search.js"></script>
+
+</body>
+</html>

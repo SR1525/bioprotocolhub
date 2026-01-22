@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BioprotocolHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">🧬 BioprotocolHub</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="troubleshooting.html">Troubleshooting</a>
+        <a href="sources.html">Sources</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <h1>One Platform for All Biotechnology Protocols</h1>
+    <p>
+        Find simplified and verified laboratory protocols from trusted
+        scientific sources — all in one place.
+    </p>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search PCR, cloning, transformation...">
+        <button onclick="window.location.href='search.html'">
+search</button>
+    </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories">
+    <h2>Explore Categories</h2>
+
+    <div class="card-grid">
+
+        <div class="card">
+            <h3>Molecular Biology</h3>
+            <p>PCR, cloning, restriction digestion, ligation, transformation.</p>
+        </div>
+
+        <div class="card">
+            <h3>Plant Biotechnology</h3>
+            <p>Plant DNA isolation, tissue culture, regeneration techniques.</p>
+        </div>
+
+        <div class="card">
+            <h3>Animal Biotechnology</h3>
+            <p>Cell culture, transfection, assays and cryopreservation.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- TRUSTED SOURCES -->
+<section class="sources">
+    <h2>Trusted Scientific Sources</h2>
+    <p>
+        All protocols are simplified and compiled from publicly available
+        information provided by:
+    </p>
+
+    <div class="source-list">
+        <span>Qiagen</span>
+        <span>Thermo Fisher Scientific</span>
+        <span>NEB</span>
+        <span>Addgene</span>
+        <span>ScienceDirect</span>
+        <span>Elsevier</span>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>
+        © 2026 BioprotocolHub | For educational purposes only  
+    </p>
+</footer>
+
+</body>
+</html>

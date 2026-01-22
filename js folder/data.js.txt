@@ -1,0 +1,67 @@
+const protocols = [
+  {
+    id: "pcr",
+    title: "PCR – Polymerase Chain Reaction",
+    category: "Molecular Biology",
+    source: "NEB / Thermo Fisher / Qiagen",
+
+    principle:
+      "PCR is a technique used to amplify a specific DNA sequence using primers and a thermostable DNA polymerase.",
+
+    materials: [
+      "Template DNA",
+      "Forward primer",
+      "Reverse primer",
+      "dNTP mix",
+      "PCR buffer",
+      "DNA polymerase",
+      "Nuclease-free water"
+    ],
+
+    procedure: [
+      "Prepare reaction mixture on ice.",
+      "Mix gently and spin briefly.",
+      "Run PCR with optimized cycling conditions.",
+      "Analyze product on agarose gel."
+    ],
+
+    result:
+      "A clear DNA band of expected size should appear on agarose gel.",
+
+    troubleshooting: [
+      {
+        problem: "No band",
+        reason: "Low template or incorrect annealing temperature",
+        solution: "Increase template or optimize annealing temperature"
+      },
+      {
+        problem: "Multiple bands",
+        reason: "Non-specific primer binding",
+        solution: "Increase annealing temperature or redesign primers"
+      }
+    ]
+  }
+];
+const protocols = [
+  {
+    id: "pcr",
+    title: "PCR – Polymerase Chain Reaction",
+    category: "Molecular Biology",
+    keywords: ["pcr", "amplification", "dna"],
+    source: "NEB / Qiagen"
+  },
+  {
+    id: "gel",
+    title: "Agarose Gel Electrophoresis",
+    category: "Molecular Biology",
+    keywords: ["gel", "electrophoresis", "dna separation"],
+    source: "Thermo Fisher"
+  },
+  {
+    id: "plant-dna",
+    title: "Plant DNA Isolation",
+    category: "Plant Biotechnology",
+    keywords: ["plant", "dna isolation", "ctab"],
+    source: "Qiagen"
+  }
+];

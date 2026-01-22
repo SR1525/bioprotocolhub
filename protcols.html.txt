@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Protocol | BioprotocolHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">🧬 BioprotocolHub</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="troubleshooting.html">Troubleshooting</a>
+        <a href="sources.html">Sources</a>
+    </nav>
+</header>
+
+<!-- PROTOCOL HEADER -->
+<section class="hero" style="padding:50px 20px;">
+    <h1>PCR – Polymerase Chain Reaction</h1>
+    <p>Category: Molecular Biology</p>
+</section>
+
+<!-- PROTOCOL CONTENT -->
+<section class="protocol-container">
+
+    <div class="protocol-card">
+        <h2>Principle</h2>
+        <p>
+            Polymerase Chain Reaction (PCR) is a technique used to amplify
+            a specific region of DNA using sequence-specific primers and
+            a thermostable DNA polymerase.
+        </p>
+    </div>
+
+    <div class="protocol-card">
+        <h2>Materials Required</h2>
+        <ul>
+            <li>Template DNA</li>
+            <li>Forward and reverse primers</li>
+            <li>dNTP mixture</li>
+            <li>Reaction buffer</li>
+            <li>DNA polymerase (Taq / Phusion)</li>
+            <li>Nuclease-free water</li>
+        </ul>
+    </div>
+
+    <div class="protocol-card">
+        <h2>Procedure</h2>
+        <ol>
+            <li>Prepare PCR reaction mixture on ice.</li>
+            <li>Mix gently and briefly centrifuge.</li>
+            <li>Run PCR using appropriate thermal cycling conditions.</li>
+            <li>Analyze amplified product using agarose gel electrophoresis.</li>
+        </ol>
+    </div>
+
+    <div class="protocol-card">
+        <h2>Expected Result</h2>
+        <p>
+            A DNA band of expected size should be observed on agarose gel.
+        </p>
+    </div>
+
+    <div class="protocol-card">
+        <h2>Troubleshooting</h2>
+
+        <table class="table">
+            <tr>
+                <th>Problem</th>
+                <th>Possible Reason</th>
+                <th>Solution</th>
+            </tr>
+            <tr>
+                <td>No band</td>
+                <td>Low template or incorrect annealing temperature</td>
+                <td>Increase template concentration or optimize annealing temperature</td>
+            </tr>
+            <tr>
+                <td>Multiple bands</td>
+                <td>Non-specific primer binding</td>
+                <td>Increase annealing temperature or redesign primers</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="protocol-card">
+        <h2>Source Reference</h2>
+        <p>
+            Protocol simplified and compiled from publicly available information
+            provided by NEB, Thermo Fisher Scientific and Qiagen.
+        </p>
+    </div>
+
+</section>
+
+<footer class="footer">
+    <p>© 2026 BioprotocolHub | Educational use only</p>
+</footer>
+
+</body>
+</html>
+<section class="protocol-container">
+
+  <div class="protocol-card">
+    <h1 id="title"></h1>
+    <p id="category"></p>
+  </div>
+
+  <div class="protocol-card">
+    <h2>Principle</h2>
+    <p id="principle"></p>
+  </div>
+
+  <div class="protocol-card">
+    <h2>Materials</h2>
+    <ul id="materials"></ul>
+  </div>
+
+  <div class="protocol-card">
+    <h2>Procedure</h2>
+    <ol id="procedure"></ol>
+  </div>
+
+  <div class="protocol-card">
+    <h2>Expected Result</h2>
+    <p id="result"></p>
+  </div>
+
+  <div class="protocol-card">
+    <h2>Troubleshooting</h2>
+    <table class="table">
+      <tr>
+        <th>Problem</th>
+        <th>Reason</th>
+        <th>Solution</th>
+      </tr>
+      <tbody id="troubleshoot"></tbody>
+    </table>
+  </div>
+
+  <div class="protocol-card">
+    <h2>Source</h2>
+    <p id="source"></p>
+  </div>
+
+</section>
+
+<script src="js/data.js"></script>
+<script src="js/render.js"></script>

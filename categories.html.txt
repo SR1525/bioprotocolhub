@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Categories | BioprotocolHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">🧬 BioprotocolHub</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="troubleshooting.html">Troubleshooting</a>
+        <a href="sources.html">Sources</a>
+    </nav>
+</header>
+
+<!-- PAGE HEADER -->
+<section class="hero" style="padding:60px 20px;">
+    <h1>Protocol Categories</h1>
+    <p>Select your area of biotechnology</p>
+</section>
+
+<!-- CATEGORY CARDS -->
+<section class="categories">
+
+    <div class="card-grid">
+
+        <div class="card">
+            <h3>🧬 Molecular Biology</h3>
+            <p>
+                PCR, cloning, restriction digestion, ligation,
+                transformation, plasmid isolation and more.
+            </p>
+            <a class="btn" href="protocol.html">Explore</a>
+        </div>
+
+        <div class="card">
+            <h3>🌱 Plant Biotechnology</h3>
+            <p>
+                Plant DNA isolation, tissue culture, callus induction,
+                regeneration and Agrobacterium-mediated transformation.
+            </p>
+            <a class="btn" href="protocol.html">Explore</a>
+        </div>
+
+        <div class="card">
+            <h3>🧫 Animal Biotechnology</h3>
+            <p>
+                Mammalian cell culture, transfection,
+                cryopreservation, viability assays and more.
+            </p>
+            <a class="btn" href="protocol.html">Explore</a>
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+    <p>© 2026 BioprotocolHub | Educational use only</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+const params = new URLSearchParams(window.location.search);
+const protocolId = params.get("id");
+
+const protocol = protocols.find(p => p.id === protocolId);
+
+if (protocol) {
+  document.getElementById("title").innerText = protocol.title;
+  document.getElementById("category").innerText =
+    "Category: " + protocol.category;
+
+  document.getElementById("principle").innerText = protocol.principle;
+
+  protocol.materials.forEach(item => {
+    const li = document.createElement("li");
+    li.textContent = item;
+    document.getElementById("materials").appendChild(li);
+  });
+
+  protocol.procedure.forEach(step => {
+    const li = document.createElement("li");
+    li.textContent = step;
+    document.getElementById("procedure").appendChild(li);
+  });
+
+  document.getElementById("result").innerText = protocol.result;
+
+  protocol.troubleshooting.forEach(t => {
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td>${t.problem}</td>
+      <td>${t.reason}</td>
+      <td>${t.solution}</td>
+    `;
+    document.getElementById("troubleshoot").appendChild(row);
+  });
+
+  document.getElementById("source").innerText =
+    "Compiled from publicly available information: " + protocol.source;
+}
